@@ -64,10 +64,9 @@ class Game(object):
                     break
 
     def processBlock(self, ball, block):
-        if block.GetBlockType() == BlockType.COPY:
-            self.copyBalls()
+      
         if block.GetBlockType() == BlockType.SPEED_UP:
-            ball.SetSpeed(1.5)
+            ball.SetSpeed(2.0)
         if block.GetBlockType() == BlockType.SPEED_DOWN:
             ball.SetSpeed(0.2)
         if block.GetBlockType() == BlockType.WALL:

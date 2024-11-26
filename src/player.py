@@ -27,7 +27,7 @@ class Player(pygame.sprite.Sprite):
             if self.posX < self.posXMax:
                 self.posX += 3
         
-        if getCurrentTime() - self.preChangeTime > 200:
+        if getCurrentTime() - self.preChangeTime > 100:
             self.preChangeTime = getCurrentTime()
             self.imageIndex = (self.imageIndex + 1) % len(self.images)
 

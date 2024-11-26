@@ -17,7 +17,7 @@ PLAYER_RES = (
 BALL_RES = "res/ball.png"
 BLOCK_RES_FMT = "res/block/%d.png"
 
-GAME_OVER_RES = "res/lose.png"
+GAME_OVER_RES = "res/gg.png"
 
 class BlockType:
     NULL = 0
